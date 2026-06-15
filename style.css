@@ -6,12 +6,6 @@ body {
     color: white;
 }
 
-header {
-    background: #0d1b2a;
-    padding: 30px;
-    text-align: center;
-}
-
 h1 {
     color: gold;
 }
@@ -50,22 +44,7 @@ nav a {
 nav a:hover {
     color: white;
 }
-.logo {
-    width: 180px;
-    display: block;
-    margin: 0 auto 10px;
-}
 
-.header-icons {
-    text-align: right;
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.header-icons span {
-    margin-left: 15px;
-    cursor: pointer;
-}
 header {
     position: sticky;
     top: 0;
