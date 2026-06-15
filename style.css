@@ -71,3 +71,29 @@ header {
     top: 0;
     z-index: 1000;
 }
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 20px;
+    background: #ffffff;
+}
+
+.logo {
+    width: 150px;
+    margin: 0;
+}
+
+.header-icons {
+    font-size: 28px;
+}
+
+.header-icons span {
+    margin-left: 15px;
+    cursor: pointer;
+}
