@@ -59,7 +59,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 15px 20px;
+    padding: 20px 25px;
     background: #ffffff;
 }
 
@@ -69,10 +69,10 @@ header {
 }
 
 .header-icons {
-    font-size: 28px;
+    font-size: 36px;
 }
 
 .header-icons span {
-    margin-left: 15px;
+    margin-left: 25px;
     cursor: pointer;
 }
