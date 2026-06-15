@@ -44,12 +44,6 @@ nav a {
 nav a:hover {
     color: white;
 }
-
-header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
 header {
     position: sticky;
     top: 0;
@@ -59,8 +53,9 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px 25px;
-    background: #ffffff;
+    padding: 10px 20px;
+    background: white;
+    border-bottom: 1px solid #ddd;
 }
 
 .logo {
