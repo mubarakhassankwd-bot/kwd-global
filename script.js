@@ -6,3 +6,7 @@ function toggleSearch() {
     document.querySelector(".search-content")
         .classList.toggle("show");
 }
+function toggleLanguage() {
+    document.querySelector(".language-content")
+        .classList.toggle("show");
+}
