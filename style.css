@@ -36,7 +36,7 @@ nav {
 
 nav a {
     display: inline-block;
-    padding: 15px 20px;
+    padding: 12px 15px;
     color: gold;
     text-decoration: none;
     font-weight: bold;
@@ -57,7 +57,9 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    height: 120px;
+    header {
+    min-height: 120px;
+}
     padding: 0 25px;
 
     background: white;
@@ -65,7 +67,8 @@ header {
 }
 
 .logo {
-    width: 250px;
+    max-width: 280px;
+    width: 100%;
     height: auto;
 }
     
