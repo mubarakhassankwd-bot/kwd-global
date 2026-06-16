@@ -158,3 +158,21 @@ nav {
 .language-dropdown:hover .language-content {
     display: block;
 }
+.search-box {
+    position: relative;
+}
+
+.search-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.search-content input {
+    width: 220px;
+    padding: 10px;
+}
