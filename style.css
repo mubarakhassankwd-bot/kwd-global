@@ -53,7 +53,9 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px 30px;
+    height: 80px;
+    padding: 0 30px;
+
     background: white;
     border-bottom: 1px solid #ddd;
 }
