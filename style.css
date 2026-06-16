@@ -35,11 +35,14 @@ nav {
 }
 
 nav a {
+    display: inline-block;
+    padding: 15px 20px;
     color: gold;
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
-    margin: 0 15px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 nav a:hover {
@@ -80,6 +83,7 @@ nav {
     text-align: center;
     background: #10253a;
     padding: 15px;
+    user-select: none;
 }
 .dropdown {
     position: relative;
