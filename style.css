@@ -54,7 +54,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    height: 100px;
+    height: 120px;
     padding: 0 25px;
 
     background: white;
@@ -71,8 +71,8 @@ header {
 .header-icons {
     display: flex;
     align-items: center;
-    gap: 30px;
-    font-size: 40px;
+    gap: 35px;
+    font-size: 45px;
     color: #0A2342;
 }
 
