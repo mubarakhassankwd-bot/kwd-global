@@ -118,3 +118,6 @@ nav {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.dropdown-content {
+    z-index: 9999;
+}
