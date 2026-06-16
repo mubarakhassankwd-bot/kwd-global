@@ -53,22 +53,22 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    height: 80px;
-    padding: 0 30px;
+    height: 100px;
+    padding: 0 40px;
 
     background: white;
     border-bottom: 1px solid #ddd;
 }
 
 .logo {
-    width: 300px;
+    width: 260px;
     height: auto;
 }
 .header-icons {
     display: flex;
     align-items: center;
-    gap: 25px;
-    font-size: 34px;
+    gap: 30px;
+    font-size: 40px;
     color: #0A2342;
 }
 
