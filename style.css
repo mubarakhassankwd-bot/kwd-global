@@ -59,7 +59,7 @@ header {
 }
 
 .logo {
-    width: 80px;
+    width: 200px;
     height: auto;
 }
 
@@ -71,4 +71,9 @@ header {
 .header-icons span {
     margin-left: 25px;
     cursor: pointer;
+}
+nav {
+    text-align: center;
+    background: #10253a;
+    padding: 15px;
 }
