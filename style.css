@@ -124,3 +124,37 @@ nav {
 .show {
     display: block;
 }
+.language-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.language-icon {
+    cursor: pointer;
+}
+
+.language-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: white;
+    min-width: 150px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.language-content a {
+    display: block;
+    padding: 12px;
+    color: #081421;
+    text-decoration: none;
+}
+
+.language-content a:hover {
+    background: #f5f5f5;
+}
+
+.language-dropdown:hover .language-content {
+    display: block;
+}
