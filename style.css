@@ -56,12 +56,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    header {
-    min-height: 120px;
+    
+header {
+    min-height: 140px;
+    padding: 0 30px;
 }
-    padding: 0 25px;
-
+    
     background: white;
     border-bottom: 1px solid #ddd;
 }
