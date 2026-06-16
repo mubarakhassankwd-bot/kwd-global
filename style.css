@@ -53,7 +53,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 10px 20px;
+    padding: 20px 30px;
     background: white;
     border-bottom: 1px solid #ddd;
 }
@@ -62,15 +62,17 @@ header {
     width: 200px;
     height: auto;
 }
-
 .header-icons {
-    font-size: 24px;
-    color: black;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 34px;
+    color: #0A2342;
 }
 
 .header-icons span {
-    margin-left: 25px;
     cursor: pointer;
+    padding: 8px;
 }
 nav {
     text-align: center;
