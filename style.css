@@ -66,16 +66,12 @@ header {
     height: auto;
 }
     
-}
-
 .header-icons {
     display: flex;
     align-items: center;
     gap: 35px;
-    font-size: 45px;
-    color: #0A2342;
+    font-size: 42px;
 }
-
 .header-icons span {
     cursor: pointer;
     padding: 8px;
