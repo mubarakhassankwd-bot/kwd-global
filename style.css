@@ -192,14 +192,18 @@ nav a:hover {
 }
 
 .social-icons{
-    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+
     margin-top:40px;
     padding-bottom:40px;
 }
 
 .social-icons a{
-    font-size:40px;
-    margin:10px;
+    font-size:35px;
+    text-decoration:none;
 }
 .menu-icon{
     display:block !important;
