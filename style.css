@@ -113,3 +113,90 @@ nav a:hover {
     width: 220px;
     padding: 10px;
 }
+.main-header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:white;
+    padding:10px 20px;
+}
+
+.logo{
+    width:300px;
+    height:auto;
+}
+
+.header-icons{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.language-icon,
+.search-icon,
+.menu-icon{
+    font-size:40px;
+    cursor:pointer;
+}
+
+/* Hide top nav completely */
+.main-nav{
+    display:none;
+}
+
+/* Big EUE-style side menu */
+.side-menu{
+    position:fixed;
+    top:0;
+    right:-100%;
+
+    width:85%;
+    max-width:400px;
+    height:100%;
+
+    background:#2f355f;
+
+    transition:0.4s ease;
+
+    z-index:9999;
+
+    overflow-y:auto;
+
+    padding-top:80px;
+}
+
+.side-menu.active{
+    right:0;
+}
+
+.side-menu a{
+    display:block;
+
+    color:white;
+    text-decoration:none;
+
+    font-size:32px;
+    font-weight:bold;
+
+    padding:20px 30px;
+}
+
+.side-menu a:hover{
+    background:rgba(255,255,255,0.1);
+}
+
+.social-icons{
+    text-align:center;
+    margin-top:40px;
+    padding-bottom:40px;
+}
+
+.social-icons a{
+    font-size:40px;
+    margin:10px;
+}
