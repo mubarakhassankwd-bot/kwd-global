@@ -1,9 +1,8 @@
 function toggleMenu() {
-    document
-        .getElementById("sideMenu")
-        .classList
-        .toggle("active");
+    document.getElementById("sideMenu")
+        .classList.toggle("active");
 }
+
 function toggleSearch() {
     document.querySelector(".search-content")
         .classList.toggle("show");
@@ -29,16 +28,15 @@ document.addEventListener("click", function(event) {
             .classList.remove("show");
     }
 
-});
-document.addEventListener("click", function(event){
 
-    const sideMenu = document.getElementById("sideMenu");
+document.addEventListener("click", function(e){
+
+    const menu = document.getElementById("sideMenu");
 
     if(
-        !event.target.closest(".menu-icon") &&
-        !event.target.closest(".side-menu")
+        !e.target.closest("#sideMenu") &&
+        !e.target.closest(".menu-icon")
     ){
-        sideMenu.classList.remove("active");
+        menu.classList.remove("active");
     }
-
 });
