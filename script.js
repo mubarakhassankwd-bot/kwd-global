@@ -1,6 +1,8 @@
 function toggleMenu() {
-    document.querySelector(".dropdown-content")
-        .classList.toggle("show");
+    document
+        .getElementById("sideMenu")
+        .classList
+        .toggle("active");
 }
 function toggleSearch() {
     document.querySelector(".search-content")
@@ -25,6 +27,18 @@ document.addEventListener("click", function(event) {
     if (!event.target.closest(".search-box")) {
         document.querySelector(".search-content")
             .classList.remove("show");
+    }
+
+});
+document.addEventListener("click", function(event){
+
+    const sideMenu = document.getElementById("sideMenu");
+
+    if(
+        !event.target.closest(".menu-icon") &&
+        !event.target.closest(".side-menu")
+    ){
+        sideMenu.classList.remove("active");
     }
 
 });
