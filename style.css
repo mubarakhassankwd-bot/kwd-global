@@ -181,10 +181,10 @@ nav a:hover {
     color:white;
     text-decoration:none;
 
-    font-size:32px;
-    font-weight:bold;
+    font-size:38px;
+    font-weight:500;
 
-    padding:20px 30px;
+    padding:24px 40px;
 }
 
 .side-menu a:hover{
