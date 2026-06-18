@@ -135,11 +135,12 @@ nav a:hover {
 }
 
 .language-icon,
-.search-icon,
+.search-icon{
+    font-size:50px;
+}
+
 .menu-icon{
-    font-size:26px;
-    font-weight:600;
-    white-space:nowrap;
+    font-size:70px;
 }
 
 /* Hide top nav completely */
