@@ -218,3 +218,13 @@ nav a:hover {
     font-size:50px;
     color:white;
 }
+.icon-box i{
+    font-size:40px;
+    color:#002b7f;
+}
+
+.icon-box small{
+    font-size:14px;
+    font-weight:600;
+    color:#002b7f;
+}
