@@ -123,9 +123,11 @@ nav a:hover {
 }
 
 .header-icons{
+
     display:flex;
-    align-items:center;
-    gap:25px;
+
+    gap:30px;
+
 }
 
 .language-icon,
