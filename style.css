@@ -242,3 +242,25 @@ nav a:hover {
     font-weight:600;
     color:#002b7f;
 }
+@media(max-width:768px){
+
+    .main-header{
+        height:140px;
+    }
+
+    .logo{
+        height:100px;
+    }
+
+    .header-icons{
+        gap:35px;
+    }
+
+    .icon-box i{
+        font-size:42px;
+    }
+
+    .icon-box small{
+        font-size:16px;
+    }
+}
