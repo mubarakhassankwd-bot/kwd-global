@@ -42,8 +42,7 @@ nav a:hover {
 
 
 .logo {
-    width: 500px;
-    max-width: none;
+    width: 350px;
     height: auto;
 }
     
@@ -125,8 +124,8 @@ nav a:hover {
 
     background:white;
 
-    padding:1px 10px
-    min-height:40px;
+    padding:10px 20px
+    min-height:90px;
 }
 
 .header-icons{
