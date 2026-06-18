@@ -189,3 +189,32 @@ nav a:hover {
         font-size:24px;
     }
 }
+.main-header{
+    position:sticky;
+    top:0;
+    z-index:9998;
+}
+
+.menu-icon,
+.fa-bars{
+    color:#002b7f;
+    font-size:42px;
+}
+
+.fa-globe,
+.fa-search{
+    color:#002b7f;
+    font-size:32px;
+}
+
+.social-icons{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.social-icons i{
+    font-size:50px;
+    color:white;
+}
