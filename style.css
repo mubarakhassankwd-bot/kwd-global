@@ -66,8 +66,9 @@ nav a:hover {
     display: inline-block;
 }
 
-.language-icon {
-    cursor: pointer;
+.language-icon,
+.search-icon{
+    font-size:55px;
 }
 
 .language-content {
