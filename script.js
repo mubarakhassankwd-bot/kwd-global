@@ -3,15 +3,9 @@ function toggleMenu() {
         .classList.toggle("active");
 }
 
-function toggleSearch() {
-    document.querySelector(".search-content")
-        .classList.toggle("show");
-}
+function toggleSearch() {}
 
-function toggleLanguage() {
-    document.querySelector(".language-content")
-        .classList.toggle("show");
-}
+function toggleLanguage() {}
 
 document.addEventListener("click", function(e){
 
@@ -19,18 +13,9 @@ document.addEventListener("click", function(e){
 
     if (
         !e.target.closest("#sideMenu") &&
-        !e.target.closest(".menu-icon")
+        !e.target.closest(".icon-box")
     ) {
         menu.classList.remove("active");
     }
 
-    if (!e.target.closest(".language-dropdown")) {
-        document.querySelector(".language-content")
-            ?.classList.remove("show");
-    }
-
-    if (!e.target.closest(".search-box")) {
-        document.querySelector(".search-content")
-            ?.classList.remove("show");
-    }
 });
