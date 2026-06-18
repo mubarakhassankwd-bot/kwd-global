@@ -157,7 +157,7 @@ nav a:hover {
     width:100%;
     height:100%;
 
-    background:#3f456f;
+    background:#081421;
 
     transition:.4s ease;
 
@@ -191,14 +191,14 @@ nav a:hover {
 .social-icons{
     display:flex;
     justify-content:center;
-    gap:35px;
+    gap:40px;
 
     margin-top:60px;
     padding-bottom:50px;
 }
 
 .social-icons a{
-    font-size:34px;
+    font-size:55px;
     color:white;
 }
 
