@@ -126,7 +126,7 @@ nav a:hover {
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:25px;
+    padding:15px;
     position:sticky;
     top:0;
 }
@@ -139,7 +139,7 @@ nav a:hover {
 .menu-top-icons{
     display:flex;
     align-items:center;
-    gap:40px;
+    gap:20px;
 }
 
 .menu-top-icons a,
