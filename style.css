@@ -139,19 +139,19 @@ nav a:hover {
 .menu-top-icons{
     display:flex;
     align-items:center;
-    gap:20px;
+    gap:18px;
 }
 
 .menu-top-icons a,
 .menu-top-icons span{
-    font-size:18px;
+    font-size:24px;
     font-weight:700;
     color:#002b7f;
     text-decoration:none;
 }
 
 .menu-top-icons i{
-    font-size:30px;
+    font-size:38px;
     margin-right:8px;
 }
 
