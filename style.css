@@ -211,3 +211,25 @@ nav a:hover {
     font-size:48px !important;
     font-weight:bold;
 }
+.menu-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:white;
+
+    padding:15px 20px;
+
+    position:sticky;
+    top:0;
+}
+
+.menu-header img{
+    width:180px;
+}
+
+.menu-header span{
+    font-size:45px;
+    cursor:pointer;
+    color:black;
+}
