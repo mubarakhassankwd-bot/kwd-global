@@ -41,29 +41,31 @@ nav a:hover {
 }
 
 
-/* ===== HEADER ===== */
+/* HEADER */
 
 .main-header{
     background:#fff;
-    height:120px;
-    padding:0 25px;
+    height:150px;
+    padding:0 35px;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    border-bottom:1px solid #e5e5e5;
+    border-bottom:2px solid #e5e5e5;
 }
 
+/* BIGGER LOGO */
+
 .logo{
-    height:90px;
+    height:120px;
     width:auto;
 }
 
-/* ===== HEADER ICONS ===== */
+/* HEADER ICONS */
 
 .header-icons{
     display:flex;
     align-items:center;
-    gap:30px;
+    gap:50px;
 }
 
 .icon-box{
@@ -71,18 +73,25 @@ nav a:hover {
     flex-direction:column;
     align-items:center;
     cursor:pointer;
+    padding:10px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.icon-box:active{
+    background:#f1f1f1;
 }
 
 .icon-box i{
-    font-size:34px;
+    font-size:46px;
     color:#002b7f;
 }
 
 .icon-box small{
-    font-size:14px;
-    font-weight:600;
+    font-size:18px;
+    font-weight:700;
     color:#002b7f;
-    margin-top:5px;
+    margin-top:8px;
 }
 
 /* ===== HIDE TOP NAV ===== */
