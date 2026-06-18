@@ -138,8 +138,9 @@ nav a:hover {
 .language-icon,
 .search-icon,
 .menu-icon{
-    font-size:40px;
-    cursor:pointer;
+    font-size:26px;
+    font-weight:600;
+    white-space:nowrap;
 }
 
 /* Hide top nav completely */
