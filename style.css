@@ -260,10 +260,24 @@ nav a:hover {
     cursor:pointer;
 }
 
+.icon-box span{
+
+    font-size:34px;
+
+    color:#002b7f;
+
+}
+
 .icon-box small{
-    font-size:12px;
-    margin-top:4px;
-    color:#222;
+
+    margin-top:5px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    color:#002b7f;
+
 }
 
 .menu-icon{
