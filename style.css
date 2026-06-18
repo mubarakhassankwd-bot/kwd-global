@@ -42,8 +42,8 @@ nav a:hover {
 
 
 .logo {
-    width: 320px;
-    max-width: 70;
+    width: 50px;
+    max-width: none;
     height: auto;
 }
     
@@ -233,4 +233,17 @@ nav a:hover {
     font-size:45px;
     cursor:pointer;
     color:black;
+}
+.menu-top-icons{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.menu-top-icons a,
+.menu-top-icons span{
+    font-size:24px;
+    text-decoration:none;
+    color:black;
+    cursor:pointer;
 }
