@@ -172,17 +172,7 @@ nav a:hover {
 
 /* ===== SOCIAL ICONS ===== */
 
-.social-icons{
-    display:flex;
-    justify-content:center;
-    gap:35px;
-    margin:40px 0;
-}
 
-.social-icons i{
-    color:white;
-    font-size:40px;
-}
 
 /* ===== MOBILE ===== */
 
